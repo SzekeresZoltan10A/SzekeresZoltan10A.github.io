@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lemonada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lemonada&display=swap');
+
+
+.nav{
+    background-color: #24252A;
+    font-family:  'Lemonada', cursive; 
+    color:white;
+    font-size: 19px  
+}
+
+
+
+
+/*---kezdőlap---*/
+
+.kezdo{
+    
+    background-color: #FAD7AF;
+}
+
+.jumbotron-fluid{
+    
+             background-image:url(img/fa%203.jpg);
+             height: 40;
+             width: 20;
+             background-position:center;
+             background-size:cover;
+             padding:auto;
+             text-align:center;
+             font-family: 'Lemonada', cursive;  
+             color:white;
+            border-width: 150px;
+            font-size: 50px;
+            padding-left: 180px; 
+            margin-top: 85px
+}
+
+.lead{ 
+    font-size: 40px;
+}
+
+.fluid{
+    padding-bottom:  200px;
+    padding-top:40px;
+        
+}
+
+.szoveg{
+    padding-top:26px;
+    font-size: 22px;
+}
+
+.focim{
+        
+    font-family: 'EB Garamond', serif;
+    font-size: 50px; 
+    margin-top: 15px
+}
+
+.kep{
+   
+    align-items:center;
+    width: 800px;
+    color:black;
+    border: 20px;
+    margin-bottom: 50px;   
+}
+
+ /*---kezdőlap-vége---*/
+
+
+
+ /*---pizzak---*/
+
+
+.pizzak{
+    
+    background-color:#FCDFBE;
+    padding-top: 110px
+    
+}
+   
+.hatterkep{
+    background-image: url(img/pizza%20hatter%205.png);
+    background-position: center;
+       
+
+} 
+
+
+.table{
+
+    text-align: justify;
+    outline-color:black;
+
+    
+  
+    
+}
+
+.focimpizza{
+    
+    color: red;
+    text-align:center;
+    font-size: 60px ;
+    height: 20px;
+    margin-top: 40000px;
+    font-family: 'Lemonada', cursive; 
+    
+}
+
+td{
+    color: black;
+    font-weight: 600;
+    font-family:sans-serif;
+    height: 20px;
+    width: 200px; 
+    
+}
+
+
+.button{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 2rem;
+    padding-bottom: 30px;
+}
+
+.table{
+    margin-top: 10px;
+    font-size: 17px;
+    margin-bottom: 40px;
+    border: 0px;
+}
+
+table, th, td {
+  border: 0px ;
+}
+
+ /*---pizzak-vége---*/
+
+
+
+
+/*---rendelés---*/
+
+.rendeles{
+    padding-top:110px;
+    padding-right:0 ;
+    margin-bottom: 10px;
+    color: black;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 19px;
+    
+}
+
+.rendelhatter{
+    background-color: #FCDFBE;
+}
+
+/*---rendelés-vége---*/
+
+
+
+
+
+/*---info---*/
+
+.info{
+    padding-top:137px ;
+    color: black;
+    margin-bottom: 320px;
+
+}
+
+.infofocim{
+    font-family: 'EB Garamond', serif;
+    font-size: 55px;
+    margin-left: 75px;
+    
+}
+
+.infoszoveg{
+       font-size: 20px; 
+        
+      margin-left: 75px;
+    margin-right: 0px;
+    
+}
+
+.infohatter{
+    background-color: #FDE7CD;
+    
+}
+
+/*---info vége---*/
+
+
+
+
+ /*---galéria---*/
+
+.galeri{
+    padding-top: 80px;  
+}
+
+.Galeryhatter{
+    
+  background-color: #FDE7CD;  
+    
+}
+
+/*---galéria-vége---*/
+
+
+
+
+
+    
+
+
+ /*---footer---*/
+
+.footer a{
+    
+    text-decoration: none;
+    color:fff; 
+}
+
+.footer a:hover{
+    text-decoration: none;
+}
+
+.line{
+    margin: 0 0 1em;
+    line-height: 2em;
+    padding: 2rem;
+    color:white;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 1.5rem;
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.line:before,
+.line:after{
+    content: " ";
+    position: absolute;
+    top:50%;
+   margin-left: -999rem;
+    height: 2px;
+    width:998rem;
+    border-top: 1px solid #fff;
+    background-color:rgba(0, 0, 0, 0.2);
+     
+}
+
+.line:after{
+    left: auto;
+    width: 999rem;
+    margin: 0 0 0 1rem;
+  
+}
+
+
